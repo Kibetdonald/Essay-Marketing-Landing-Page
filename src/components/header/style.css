@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+    width: 100%;
+    padding: 0;
+
+}
+.header{
+    height: 200%;
+    padding-top: 1%;
+    width: 100%;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    
+    
+}
+
+a{
+    color: #000 !important;
+}
+.navLink{
+    color: #000 !important;
+  
+}
+.navLink:hover{
+    color: #00D4FF !important;
+    
+}
+
+.logoText{
+    font-size: 28px;
+    float: right;
+    font-family: sans-serif;
+    /* font-style: italic; */
+    letter-spacing: 1.5px;
+    margin-top: 10%;
+    color: #00D4FF;
+    line-height: 2px;
+
+
+}
+.logo{
+    width: 80%;
+}
+.centersection{
+    width: 100%;
+}
+.centerDiv{
+    width: 70%;
+    margin-top: 23%;
+    margin-left: 20%;
+    color: #fff;
+  
+}
+.centerDiv h1{
+    color: #00D4FF;
+    font-size: 28px;
+}
+
+.svgImage{
+    margin-top: 14%;
+  
+}
+.aboutText{
+    font-size: 18px;   
+    color: #000;
+}
+.check{
+    color: #000;
+   
+}
+.rate{
+    color: orange;
+}
+.common-btn{
+    background-color: #00D4FF;
+    color: #fff;
+    border-radius: 4px;
+    height: 35px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+
+.hirebtn{
+    background-color:transparent;
+    color: #00D4FF;
+    border-radius: 4px;
+    border: 1px solid #00D4FF;
+    height: 35px;
+    width: 120%;
+    margin-top: 7px;
+    text-align: center;
+
+}
+.hirebtn:hover{
+    background-color: #00D4FF;
+    color: #fff;
+    border-radius: 4px;
+    height: 35px;
+    border: none;
+    text-align: center;
+
+}
+.vertical {
+    border-left: 2px solid grey;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.vertical2 {
+    border-left: 2px solid grey;
+    height: 200px;
+    position:absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.fixedTextRight{
+    float: right;
+    color: #fff;
+    position: fixed;
+    right: 15px;
+    margin-top: -25%;
+
+}
+.fixedText{
+    position: fixed;
+    left: 3%;
+    margin-top: -25%;
+    font-size: 10px;
+
+}
+.profileText{
+    text-orientation:  sideways-right;;
+    writing-mode: vertical-rl;
+    color: #000;
+    font-size: 15px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+    font-style: normal;
+     font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.hire{
+    position: absolute;
+    margin-top: 2%;
+   margin-left: 4%;
+   width: 100%;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.hire1{
+    position: absolute;
+    margin-top: 5%;
+   margin-left: 15%;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #00D4FF;
+}
+.contactSVG{
+    margin-top: 3em;
+    width: 80%;
+}
+

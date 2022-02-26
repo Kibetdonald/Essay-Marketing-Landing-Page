@@ -1,0 +1,74 @@
+a{
+    text-decoration: none !important;
+    color: black !important;
+    list-style: none !important;
+}
+a :hover{
+    text-decoration: none !important;
+    color: blue !important;
+    list-style: none !important;
+
+}
+ul li a{
+    color: #000!important;
+    letter-spacing: 0.3px;
+}
+ul li a:hover{
+    color: #00D4FF!important;
+}
+.footerContainer {
+    /* background-color: #FFDEE9; */
+    /* background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%); */
+    /* background-color: #c4c4c4; */
+    margin-top: 4%;
+    height: 100%;
+    width: 90%;
+    /* padding-left: 1%; */
+    /* padding-right: 10%; */
+    margin: "auto";
+    text-align: center;
+    margin-left: -10px;
+    margin-bottom: -20%;
+    /* align-items: center; */
+   
+}
+.footerContainer h3{
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footerContainer ul li{
+    text-decoration:none !important;
+    /* float: left; */
+    list-style: none;
+    color: red;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footerLinks:hover{
+    text-decoration: underline;
+    color: red;
+}
+.Copyright{
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.Copyright span{
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: #333;
+}
+.socialmedialinks:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.vr4{
+    width: 80%;
+    margin: auto;
+    background-color: #575656;
+    margin-top: 2%;
+}

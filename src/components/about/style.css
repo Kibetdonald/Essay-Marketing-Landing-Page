@@ -1,0 +1,23 @@
+.about{
+    background-color: #f4f7fa;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    word-spacing: 2px;
+    padding: 5%;
+    width: 100%;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%; 
+    float: left;
+
+}
+.about h3{
+    font-size: 24px;
+    color: #00D4FF;
+
+}
+.about p{
+    font-size: 18px;
+    color: #333 !important;
+}

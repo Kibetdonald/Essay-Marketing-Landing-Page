@@ -16,12 +16,13 @@ body{
 }
 .logoText{
     font-size: 26px;
-    float: right;
     font-family: sans-serif;
     letter-spacing: 1.5px;
-    margin-top: 10%;
+    margin-top: 2%;
+    margin-left: 10%;
     color: #005987;
     line-height: 2px;
+    font-weight: 600;
 }
 .logoText:hover{
     color: #ccc!important;

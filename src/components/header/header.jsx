@@ -18,7 +18,8 @@ export const Header = () => {
   return (
     <div className="header">
       <Fade top>
-        <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">
+      
+       <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">
           <Container>
             <Navbar.Brand href="/">
               <h3 className="logoText">Essaysbykirsten</h3>

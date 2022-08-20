@@ -2,3 +2,10 @@
     width: 60%;
     margin: auto;
 }
+.accordion-body{
+    color: hsl(244, 17%, 61%);
+    font-size: 14px;
+}
+.accordion-flush .accordion-item .accordion-button{
+    font-size:14px;
+}

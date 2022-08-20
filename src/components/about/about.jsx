@@ -112,9 +112,9 @@ export const About = () => {
           <h2 class="h2 section-title">About Us</h2>
 
           <p class="section-text">
-            Essaysbykirsten is a group of professional and experienced writers
-            from various educational backgrounds who collaborate to provide our
-            clients with the highest quality essays possible.
+            We are a group of experienced writers
+            from diverse educational backgrounds who collaborate to provide our
+            clients high quality essays.
           </p>
 
           <div class="container1">

@@ -296,14 +296,14 @@
     }
     .bottomSection {
       position: absolute;
-      bottom: 185px;
+      bottom: 150px;
       right: 10%;
-      width: 17rem;
+      width: 15rem;
       border-radius: 8px;
       background-color: #005987;
       color: #fff;
       padding: 12px;
-    }
+      }
       
     }
 
@@ -367,7 +367,7 @@
   }
   .bottomSection {
     position: absolute;
-    bottom: 185px;
+    bottom: 120px;
     right: 10%;
     width: 15rem;
     border-radius: 8px;

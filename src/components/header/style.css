@@ -39,20 +39,19 @@ body{
 }
 .centerDiv h1{
     color: #005987;
-    font-size: 25px;
+    font-size: 27px;
 }
 
 .svgImage{
     margin-top: 14%;
-    margin-left: 15%;
-  
+    margin-left: 20%;
 }
 .aboutText{
     font-size: 14px;   
     color: #000;
 }
 .checklist{
-    font-size:12px;
+    font-size:13px;
 }
 .check{
     color: #000;

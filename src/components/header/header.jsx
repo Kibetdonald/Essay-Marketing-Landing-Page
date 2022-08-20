@@ -21,7 +21,6 @@ export const Header = () => {
         <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">
           <Container>
             <Navbar.Brand href="/">
-              {/* <img className="logo" src="./assets/images/untitled.png" alt="logo" /> */}
               <h3 className="logoText">Essaysbykirsten</h3>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -37,22 +36,34 @@ export const Header = () => {
                   {" "}
                   <span className="navcounter">01. </span>About
                 </Nav.Link>
-                <Nav.Link className="navLink" href="#services">
+                <Nav.Link
+                  className="navLink"
+                  data-nav-section="services"
+                  href="#services"
+                >
                   {" "}
                   <span className="navcounter">02. </span>Services
                 </Nav.Link>
-
-                <Nav.Link className="navLink" href="#reviews">
+                <Nav.Link
+                  className="navLink"
+                  data-nav-section="works"
+                  href="#works"
+                >
                   {" "}
-                  <span className="navcounter">03. </span>Reviews
+                  <span className="navcounter">03. </span>How it works
+                </Nav.Link>
+
+                <Nav.Link className="navLink" href="#Testimonials">
+                  {" "}
+                  <span className="navcounter">04. </span>Reviews
                 </Nav.Link>
                 <Nav.Link className="navLink" href="#faq">
                   {" "}
-                  <span className="navcounter">04. </span>FAQ
+                  <span className="navcounter">05. </span>FAQ
                 </Nav.Link>
                 <Nav.Link className="navLink" href="#contact">
                   {" "}
-                  <span className="navcounter">05. </span>Contact
+                  <span className="navcounter">06. </span>Contact
                 </Nav.Link>
                 <Nav.Link eventKey={2} href="#">
                   <button
@@ -135,7 +146,7 @@ export const Header = () => {
         <Col>
           <Fade bottom>
             <div className="svgImage">
-              <img src="./assets/images/working.svg" width="70%" alt="svg" />
+              <img src="./assets/images/working.svg" width="80%" alt="svg" />
             </div>
           </Fade>
           <Fade left>

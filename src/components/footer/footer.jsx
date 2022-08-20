@@ -28,7 +28,7 @@ export const Footer = () => {
         />
         <div className="container">
           {/* Assuming the footer section starts here */}
-          <Fade top>
+          <Fade bottom>
             <div className="footer-section">
               <div className="footer-col">
                 <h4>Get Started</h4>
@@ -169,7 +169,8 @@ export const Footer = () => {
           {/* Footer section ends here */}
           <Fade bottom>
             <div className="SubLandingPageFooter">
-              <hr style={{width: "80%", margin: 'auto', border: '1px solid #ccc' }}/>
+              <br/>
+              <hr style={{width: "80%", margin: 'auto', border: '0.5px solid #bbb' }}/>
               <br/>
               <p className="textOne">
               ESSAYS | POWERPOINT | ONLINE TUTORING | EXAMS |

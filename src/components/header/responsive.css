@@ -111,6 +111,16 @@
     .logo{
       width: 50%;
     }
+    .bottomSection {
+      position: absolute;
+      bottom: -7px;
+      right: 10%;
+      width: 17rem;
+      border-radius: 8px;
+      background-color: #005987;
+      color: #fff;
+      padding: 12px;
+    }
     .fixedTextRight{
       margin-top: -14%;
       font-size: 4px;
@@ -182,6 +192,16 @@
    @media screen and (min-width: 480px) and (max-width: 575px){
     .logo{
       width: 50%;
+    }
+    .bottomSection {
+      position: absolute;
+      bottom: -7px;
+      right: 10%;
+      width: 17rem;
+      border-radius: 8px;
+      background-color: #005987;
+      color: #fff;
+      padding: 12px;
     }
     .centerDiv{
       width: 80%;
@@ -274,6 +294,16 @@
     .cardSection{
       width: 80%;
     }
+    .bottomSection {
+      position: absolute;
+      bottom: -7px;
+      right: 10%;
+      width: 17rem;
+      border-radius: 8px;
+      background-color: #005987;
+      color: #fff;
+      padding: 12px;
+    }
       
     }
 
@@ -332,6 +362,16 @@
     font-size: 12px;
     margin-left: 12%;
   }
+  .bottomSection {
+    position: absolute;
+    bottom: -7px;
+    right: 10%;
+    width: 17rem;
+    border-radius: 8px;
+    background-color: #005987;
+    color: #fff;
+    padding: 12px;
+    }
   }
 
 
@@ -400,6 +440,16 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 10px;
   margin-left: 12%;
+}
+.bottomSection {
+  position: absolute;
+  bottom: -7px;
+  right: 10%;
+  width: 17rem;
+  border-radius: 8px;
+  background-color: #005987;
+  color: #fff;
+  padding: 12px;
 }
      
 }
@@ -475,3 +525,18 @@
 }
 
           
+/* width 260*/
+@media screen and (min-width: 140px) and (max-width: 239px) {
+ 
+  .bottomSection {
+    position: absolute;
+    bottom: -7px;
+    right: 10%;
+    width: 17rem;
+    border-radius: 8px;
+    background-color: #005987;
+    color: #fff;
+    padding: 12px;
+  }
+  
+  }

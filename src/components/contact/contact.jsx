@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import emailjs from "emailjs-com";
 import { FaTelegramPlane } from "react-icons/fa";
+import Fade from "react-reveal/Fade";
 
 export const Contact = () => {
   function sendEmail(e) {
@@ -26,64 +27,68 @@ export const Contact = () => {
   }
   return (
     <div id="contact" className="contact">
-      <div className="container1">
-        <h2 class="h2 section-title">Contact Us</h2>
-        <p class="section-text">
-          Contact us and we shall make sure to reach back to you in the earliest
-          convinience.
-        </p>
-      </div>
+      <Fade bottom>
+        <div className="container1">
+          <h2 class="h2 section-title">Contact Us</h2>
+          <p class="section-text">
+            Contact us and we shall make sure to reach back to you in the
+            earliest convinience.
+          </p>
+        </div>
+      </Fade>
       <br />
 
-      <form className="form-floating" onSubmit={sendEmail}>
-        <div class="form-floating mb-3">
-          <input
-            name="name"
-            type="text"
-            class="form-control"
-            id="floatingInput"
-            required
-          />
-          <label for="floatingInput">Name</label>
-        </div>
+      <Fade bottom>
+        <form className="form-floating" onSubmit={sendEmail}>
+          <div class="form-floating mb-3">
+            <input
+              name="name"
+              type="text"
+              class="form-control"
+              id="floatingInput"
+              required
+            />
+            <label for="floatingInput">Name</label>
+          </div>
 
-        <div class="form-floating mb-3">
-          <input
-            name="email"
-            type="email"
-            class="form-control"
-            id="floatingInput"
-            required
-          />
-          <label for="floatingInput">Email address</label>
-        </div>
+          <div class="form-floating mb-3">
+            <input
+              name="email"
+              type="email"
+              class="form-control"
+              id="floatingInput"
+              required
+            />
+            <label for="floatingInput">Email address</label>
+          </div>
 
-        <div class="form-floating mb-3">
-          <input
-            name="subject"
-            type="text"
-            class="form-control"
-            id="floatingInput"
-            required
-          />
-          <label for="floatingInput">Subject</label>
-        </div>
+          <div class="form-floating mb-3">
+            <input
+              name="subject"
+              type="text"
+              class="form-control"
+              id="floatingInput"
+              required
+            />
+            <label for="floatingInput">Subject</label>
+          </div>
 
-        <div class="form-floating">
-          <textarea
-            class="form-control"
-            name="message"
-            placeholder="Leave a comment here"
-            id="floatingTextarea2"
-            style={{ height: 100 }}
-          ></textarea>
-          <label for="floatingInput">Comments</label>
-        </div>
+          <div class="form-floating">
+            <textarea
+              class="form-control"
+              name="message"
+              placeholder="Leave a comment here"
+              id="floatingTextarea2"
+              style={{ height: 100 }}
+            ></textarea>
+            <label for="floatingInput">Comments</label>
+          </div>
 
-        <button type="submit" className="sendMessage">
-          Send Message <FaTelegramPlane style={{ fontSize: "16px" }} />
-        </button>
-      </form>
+          <button type="submit" className="sendMessage">
+            Send Message <FaTelegramPlane style={{ fontSize: "16px" }} />
+          </button>
+        </form>
+      </Fade>
     </div>
   );
 };

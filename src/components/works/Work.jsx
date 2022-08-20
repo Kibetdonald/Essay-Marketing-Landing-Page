@@ -15,7 +15,7 @@ import Fade from "react-reveal/Fade";
 
 export default function Work() {
   return (
-    <div id="Works" className="WorkSection">
+    <div id="works" className="WorkSection">
       <Fade top>
         <div className="container1">
           <h2 class="h2 section-title">How our paper writing service works</h2>

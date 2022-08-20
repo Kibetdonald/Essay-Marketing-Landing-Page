@@ -3,24 +3,20 @@
     margin: auto;
     padding-top: 3%;
 }
-.contact h2{
-    text-align: center;
-    padding-bottom: 5%;
 
-}
 .sendMessage{
-    background-color: #00D4FF;
+    background-color: #005987;
     color: #fff;
     border-radius: 4px;
-    /* width: 20%; */
     height: 35px;
     border: none;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 15px;
+    padding: 8px;
 }
 .vr3{
-    border-bottom: 4px solid #00D4FF;
+    border-bottom: 4px solid #005987;
     opacity: 0.5;
     /* margin-top: 20%; */
     width:10%;

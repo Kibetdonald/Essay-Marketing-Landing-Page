@@ -1,129 +1,118 @@
-import React from 'react'
-import './style.css'
+import React from "react";
+import "./style.css";
+import { BsCaretRightFill } from "react-icons/bs";
+
 export const Choose = () => {
-    return (
-        <div id="services" className="choosediv">
-            <br/><br/>
-            <br/><br/>
-            
-           
-            <h3 className="topic">Why Choose us</h3>
-            <hr className="vr1"/>
-            <br/>
-            <section class="py-8 py-md-11">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-md-4" data-aos="fade-up">
+  return (
+    <div id="services" className="choosediv">
+      <section class="features" id="features">
+        <div class="container1">
+          <h2 class="h2 section-title">Awesome Services</h2>
 
+          <p class="section-text">
+            We have the best products to suit all your need and visit the link
+            below for more information.
+          </p>
 
-                            <div class="icon text-primary mb-3">
-                                <img src="./assets/images/time.svg" alt="svg" widht="34" height="34px" />
-                            </div>
+          <div class="features-wrapper">
+            <figure class="features-banner">
+              <img src="./assets/images/5.svg" width="80%" alt="svg" />
+            </figure>
 
+            <div class="features-content">
+              <p class="features-content-subtitle">
+                <ion-icon name="sparkles"></ion-icon>
 
-                            <h3 className="subtitle">
-                                Quick Turnaround
-                            </h3>
+                <span>SECURE GRADES</span>
+              </p>
 
+              <h3 class="features-content-title">
+                <strong>Every order has it's story</strong>
+              </h3>
 
-                            <p class="text-muted mb-6 mb-md-0">
-                                Is there a deadline approaching? Finish your paper in 6 hours or less. Send us a message in chat and we'll get right on it.
-                            </p>
+              <p class="features-content-text">
+                We have writting experts on board who ensure that you you get
+                quality work that guarantees your academic success. We offer
+                5-star services at budget-friendly prices to our valuable
+                customers.
+              </p>
 
-                        </div>
-                        <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="50">
+              <ul class="features-list">
+                <li class="features-list-item">
+                  <p>
+                    <BsCaretRightFill style={{ color: "#005987" }} />
+                    We have the best products to suit all your need and visit
+                    the link below for more information.
+                  </p>
+                </li>
 
+                <li class="features-list-item">
+                  <p>
+                    <BsCaretRightFill style={{ color: "#005987" }} />
+                    We have the best products to suit all your need and visit
+                    the link below for more information.
+                  </p>
+                </li>
+                <li class="features-list-item">
+                  <p>
+                    <BsCaretRightFill style={{ color: "#005987" }} />
+                    We have the best products to suit all your need and visit
+                    the link below for more information.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
 
-                            <div class="icon text-primary mb-3">
-                                <img src="./assets/images/report.svg" alt="svg" widht="34" height="34px" />
-                            </div>
+          <div class="features-wrapper">
+            <figure class="features-banner">
+              <img src="./assets/images/2.svg" width="80%" alt="svg" />
+            </figure>
 
-                            <h3 className="subtitle">
-                                Free Turnitin Report
-                            </h3>
+            <div class="features-content">
+              <p class="features-content-subtitle">
+                <ion-icon name="sparkles"></ion-icon>
 
+                <span>ENDLESS BENEFITS</span>
+              </p>
 
-                            <p class="text-muted mb-6 mb-md-0">
-                                A Turnitin plagiarism report can be added to your order to verify the originality of your paper.
-                            </p>
+              <h3 class="features-content-title">
+                <strong>
+                  Professional essay help from experienced writers.
+                </strong>
+              </h3>
 
-                        </div>
-                        <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
+              <p class="features-content-text">
+                We have the best of the best writers at your disposal with on a
+                click of a button. our essay service provides fast and quality
+                24/7 writing support that includes not only countless benefits
+                and guarantees but also offers some free features.
+              </p>
 
-
-                            <div class="icon text-primary mb-3">
-                                <img src="./assets/images/support.svg" alt="svg" widht="34" height="34px" className="rediish" />
-                            </div>
-
-                            <h3 className="subtitle">
-                                24/7 Support
-                            </h3>
-
-
-                            <p class="text-muted mb-0">
-                                You can contact us any time of day and night with any questions; we'll always be happy to help you out.
-                            </p>
-
-                        </div>
-                    </div>
-                    <br />
-                    <div class="row">
-                        <div class="col-12 col-md-4" data-aos="fade-up">
-
-
-                            <div class="icon text-primary mb-3">
-                                <img src="./assets/images/report.svg" alt="svg" widht="34" height="34px" />
-                            </div>
-
-
-                            <h3 className="subtitle">
-                                All sorts of paper writing assistance
-                            </h3>
-
-
-                            <p class="text-muted mb-6 mb-md-0">
-                                Whether you need an essay, research paper, or dissertation, We have you covered.
-                                                            </p>
-
-                        </div>
-                        <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="50">
-
-
-                            <div class="icon text-primary mb-3">
-                                <img src="./assets/images/revision.svg" alt="svg" widht="34" height="34px" />
-                            </div>
-
-                            <h3 className="subtitle">
-                            Unlimited Revisions
-                            </h3>
-
-
-                            <p class="text-muted mb-6 mb-md-0">
-                            All changes are completely free of charge. Request changes, and you'll have them in no time!
-                            </p>
-
-                        </div>
-                        <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
-
-
-                            <div class="icon text-primary mb-3">
-                                <img src="./assets/images/discount.svg" alt="svg" widht="34" height="34px" />
-                            </div>
-
-                            <h3 className="subtitle">
-                                Flexible Discount
-                            </h3>
-
-
-                            <p class="text-muted mb-0">
-                            The more pages you order, the lower the price! Yes, We are that affordable
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-
+              <ul class="features-list">
+                <li class="features-list-item">
+                  <p>
+                    <BsCaretRightFill style={{ color: "#005987" }} />
+                    We offer unlimited free revisions to our clients.
+                  </p>
+                </li>
+                <li class="features-list-item">
+                  <p>
+                    <BsCaretRightFill style={{ color: "#005987" }} />
+                    We offer accurate and itations that are below five years.
+                  </p>
+                </li>
+                <li class="features-list-item">
+                  <p>
+                    <BsCaretRightFill style={{ color: "#005987" }} />
+                    We also offer free formating for our clients.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-    )
-}
+      </section>
+    </div>
+  );
+};

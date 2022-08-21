@@ -18,7 +18,7 @@ export const About = () => {
           <Fade bottom>
             <div className="card">
               <div className="card-body">
-                <h3 style={{ color: "#005987", textAlign: "center" }}>
+                <h3 style={{ color: "#008dc9", textAlign: "center" }}>
                   <BsAward />{" "}
                   <CountUp
                     style={{ fontSize: "18px" }}
@@ -39,12 +39,12 @@ export const About = () => {
           <Fade bottom>
             <div className="card">
               <div className="card-body">
-                <h3 style={{ color: "#005987", textAlign: "center" }}>
+                <h3 style={{ color: "#008dc9", textAlign: "center" }}>
                   <BsFillPeopleFill />
                   <CountUp
                     style={{ fontSize: "18px" }}
                     duration={5}
-                    end={100}
+                    end={300}
                   />
                   <br />
                 </h3>
@@ -59,7 +59,7 @@ export const About = () => {
             <div className="card">
               <div className="card-body">
                 {" "}
-                <h3 style={{ color: "#005987", textAlign: "center" }}>
+                <h3 style={{ color: "#008dc9", textAlign: "center" }}>
                   <BsFillPersonCheckFill />{" "}
                   <CountUp
                     style={{ fontSize: "18px" }}
@@ -84,14 +84,14 @@ export const About = () => {
             <div className="card">
               <div className="card-body">
                 {" "}
-                <h3 style={{ color: "#005987", textAlign: "center" }}>
+                <h3 style={{ color: "#008dc9", textAlign: "center" }}>
                   {" "}
                   <CountUp
                     style={{ fontSize: "20px" }}
                     start={0.0}
                     decimals={1}
                     duration={5}
-                    end={2}
+                    end={1}
                   />
                   &nbsp;
                   <BsStopwatch
@@ -112,9 +112,9 @@ export const About = () => {
           <h2 class="h2 section-title">About Us</h2>
 
           <p class="section-text">
-            We are a group of experienced writers
-            from diverse educational backgrounds who collaborate to provide our
-            clients high quality essays.
+            We are a group of experienced writers from diverse educational
+            backgrounds who collaborate to provide our clients high quality
+            essays.
           </p>
 
           <div class="container1">

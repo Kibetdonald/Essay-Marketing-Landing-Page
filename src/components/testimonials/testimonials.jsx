@@ -58,7 +58,7 @@ export default function Testimonials() {
                     <Card.Body>
                       <div class="numberCircle">
                         <MdFormatQuote
-                          style={{ color: "#005987", fontSize: "22px" }}
+                          style={{ color: "#008dc9", fontSize: "22px" }}
                         />
                       </div>
                       <Card.Title>
@@ -104,7 +104,7 @@ export default function Testimonials() {
                     <Card.Body>
                       <div class="numberCircle">
                         <MdFormatQuote
-                          style={{ color: "#005987", fontSize: "22px" }}
+                          style={{ color: "#008dc9", fontSize: "22px" }}
                         />
                       </div>
                       <Card.Title>
@@ -148,7 +148,7 @@ export default function Testimonials() {
                     <Card.Body>
                       <div class="numberCircle">
                         <MdFormatQuote
-                          style={{ color: "#005987", fontSize: "22px" }}
+                          style={{ color: "#008dc9", fontSize: "22px" }}
                         />
                       </div>
                       <Card.Title>
@@ -192,7 +192,7 @@ export default function Testimonials() {
                     <Card.Body>
                       <div class="numberCircle">
                         <MdFormatQuote
-                          style={{ color: "#005987", fontSize: "22px" }}
+                          style={{ color: "#008dc9", fontSize: "22px" }}
                         />
                       </div>
                       <Card.Title>
@@ -235,7 +235,7 @@ export default function Testimonials() {
                     <Card.Body>
                       <div class="numberCircle">
                         <MdFormatQuote
-                          style={{ color: "#005987", fontSize: "22px" }}
+                          style={{ color: "#008dc9", fontSize: "22px" }}
                         />
                       </div>
                       <Card.Title>

@@ -121,15 +121,16 @@ export const Header = () => {
                 deadlines, we can help.
               </span>
               <br />
+            
               <span className="check">
-                <BsCheck style={{ color: "#005987", fontSize: "20px" }} />
+                <BsCheck style={{ color: "#008dc9", fontSize: "20px" }} />
                 <span className="checklist">Flexible prices</span> <br />
-                <BsCheck style={{ color: "#005987", fontSize: "20px" }} />
+                <BsCheck style={{ color: "#008dc9", fontSize: "20px" }} />
                 <span className="checklist">100% Original Essays</span>
                 <br />
-                <BsCheck style={{ color: "#005987", fontSize: "20px" }} />
+                <BsCheck style={{ color: "#008dc9", fontSize: "20px" }} />
                 <span className="checklist">On-time Delivery</span>
-                <br />
+                <br /> 
                 <BsFillStarFill className="rate" />
                 <BsFillStarFill className="rate" />
                 <BsFillStarFill className="rate" />

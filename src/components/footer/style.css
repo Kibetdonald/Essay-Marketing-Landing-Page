@@ -44,7 +44,7 @@ margin-left: 5%;
   position: absolute;
   left: 10%;
   bottom: -10px;
-  background-color: #005987;;
+  background-color: #008dc9;;
   height: 2px;
   box-sizing: border-box;
   width: 60px;
@@ -64,7 +64,7 @@ margin-left: 5%;
   margin-left: -2em;
 }
 .footer-col ul li a:hover {
-  color: #005987;;
+  color: #008dc9;;
   padding-left: 8px;
 }
 .footer-col .social-links a {

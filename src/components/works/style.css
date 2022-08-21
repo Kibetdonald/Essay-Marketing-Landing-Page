@@ -9,7 +9,7 @@
     padding-bottom: 2em;
 }
 .worksection-line{
-    border: 2px solid #005987;
+    border: 2px solid #008dc9;
     opacity: 1;
     text-align: center;
     width: 4.2em;
@@ -17,7 +17,7 @@
     margin-top: -3em;
 }
 .timelineTitle{
-    color: #005987;
+    color: #008dc9;
 }
 .extraInfo{
     color: hsl(244, 17%, 61%);

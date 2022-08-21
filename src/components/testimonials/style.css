@@ -10,7 +10,7 @@ color: #000;
 padding-bottom: 2em;
 }
 .testimonialLine{
-border: 2px solid #005987;;
+border: 2px solid #008dc9;;
 opacity: 1;
 text-align: center;
 width: 8em;
@@ -41,7 +41,7 @@ margin-top: -3em;
 }
 
 .cardSection{
-border-top: 2px solid #005987;
+border-top: 2px solid #008dc9;
 position:relative;
 padding-top: 20px;
 }
@@ -51,7 +51,7 @@ height: 39px;
 border-radius: 50%;
 text-align: center;
 font-size: 21.6px;
-border: 2px solid #005987;
+border: 2px solid #008dc9;
 color:white;
 background:#fff;
 position: absolute;

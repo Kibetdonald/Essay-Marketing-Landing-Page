@@ -64,7 +64,7 @@ export const About = () => {
                   <CountUp
                     style={{ fontSize: "18px" }}
                     duration={5}
-                    end={146}
+                    end={153}
                   />{" "}
                   <br />
                 </h3>

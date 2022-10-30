@@ -10,16 +10,17 @@ body{
  }
 .navLink{
     color: #000 !important;
+    font-size: 14px;
 }
 .navLink:hover{
     color: #008dc9 !important;
 }
 .logoText{
-    font-size: 30px;
+    font-size: 24px;
     font-family: sans-serif;
     letter-spacing: 1.5px;
     margin-top: 2%;
-    margin-left: 10%;
+    /* margin-left: 1%; */
     color: #008dc9;
     line-height: 2px;
     font-weight: 400;
